@@ -47,5 +47,9 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 # Inherit from oneplus sm8350-common
 $(call inherit-product, device/oneplus/sm8350-common/common.mk)
 
+# Wifi Overlay
+PRODUCT_PACKAGES += \
+    OnePlus9WifiOverlay
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/oneplus/lemonade/lemonade-vendor.mk)
