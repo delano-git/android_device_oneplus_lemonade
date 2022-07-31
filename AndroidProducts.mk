@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021 The arrowOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_lemonade.mk
+    $(LOCAL_DIR)/arrow_lemonade.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_lemonade-user \
-    lineage_lemonade-userdebug \
-    lineage_lemonade-eng
+    arrow_lemonade-user \
+    arrow_lemonade-userdebug \
+    arrow_lemonade-eng
