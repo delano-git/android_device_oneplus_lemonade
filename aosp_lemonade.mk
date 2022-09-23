@@ -11,14 +11,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from lemonade device
 $(call inherit-product, device/oneplus/lemonade/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common PEX stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_lemonade
+# Boot Animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
+PRODUCT_NAME := aosp_lemonade
 PRODUCT_DEVICE := lemonade
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := LE2115
+CUSTOM_DEVICE := OnePlus9
 
 PRODUCT_SYSTEM_NAME := OnePlus9
 PRODUCT_SYSTEM_DEVICE := OnePlus9
