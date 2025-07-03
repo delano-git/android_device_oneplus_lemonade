@@ -9,6 +9,9 @@ include device/oneplus/sm8350-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/oneplus/lemonade
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := lemonade|OnePlus9|oneplus9
+
 # Display
 TARGET_SCREEN_DENSITY := 450
 
